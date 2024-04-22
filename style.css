@@ -178,6 +178,7 @@ h1, h2 {
     background-color: rgb(59, 59, 59);
     min-height: 100px;
     margin-top: auto;
+    max-width: 100%;
 }
 
 
@@ -186,7 +187,7 @@ h1, h2 {
 @media (max-width: 768px) {
 
     .container {
-        padding-top: 0px;
+        padding-top: 1em;
     }
     
     .header-container {
@@ -224,13 +225,13 @@ h1, h2 {
     }
     
     /* Project page specific */
+    
     .project-container {
-        padding: 10px 10px;
+        width: 90vw;
     }
 
     .project-container iframe {
-        width: 380px;
-        height: 212px;
+        width: 90vw;
     }
     
     .programming-container {
