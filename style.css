@@ -141,9 +141,8 @@ h1, h2 {
 
 .col {
     background-color: rgb(59, 59, 59);
-    /* margin: 0em 1em; */
-    margin-bottom: 4em;
-    min-height:20em;
+    margin: 2em 2em;
+    min-height:20em;    
     border: 0.2em solid grey;
     border-radius: 4px;
 }
@@ -167,7 +166,7 @@ h1, h2 {
 }
 
 .col img {
-    max-width: 100%;
+    width: 100%;
     border-bottom: 0.1em solid grey;
 }
 
