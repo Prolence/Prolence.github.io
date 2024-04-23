@@ -20,11 +20,7 @@ body {
     max-width: 1024px;
     margin: 0em auto;
     padding-top: 140px; /* make sure to line with the header */
-}
-
-
-.container p {
-    text-align: center;
+    text-align: left;
 }
 
 .project-container {
@@ -78,7 +74,7 @@ header {
 }
 
 .logo {
-    padding: 40px 5px;
+    padding: 2em 1em;
 }
 
 a {
@@ -114,18 +110,27 @@ a {
 h1, h2 {
     font-weight: 700;
     font-size: 1.5rem;
-    padding-bottom: 0.6em;
-    padding-top: 0.6em;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    padding: 0.6em 0.4em;
+}
+
+.container a {
+    color:darkcyan;
+}
+
+.container p {
+    padding: 0.6em 0.4em;
 }
 
 /* Project page specific */
+
 .project-container a {
     color:darkcyan;
 }
 .project-container ul {
     padding: 0.6em;
+}
+.project-container li {
+    padding-left: 2em;
 }
 
 .project-container p {
@@ -195,7 +200,7 @@ h1, h2 {
     }
 
     .logo {
-        padding: 40px 5px;
+        padding: 2em 1em;
     }
 
     nav {
