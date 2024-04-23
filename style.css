@@ -19,21 +19,20 @@ body {
     min-height: 500px;
     max-width: 1024px;
     margin: 0em auto;
-    padding-top: 140px; /* make sure to line with the header */
+    padding-top: 8em; /* make sure to line with the header */
+    padding-left: 0.4em;
     text-align: left;
 }
 
 .project-container {
-    min-height: 500px;
-    max-width: 1024px;
+    max-width: 60em;
     margin: 0 auto;
-    padding: 7em 0; /* make sure to line with the header */
+    padding: 7em 0.4em; /* make sure to line with the header */
     line-height: 1.25rem;
 }
 
 .programming-container {
-    min-height: 500px;
-    max-width: 1024px;
+    max-width: 65em;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -110,7 +109,7 @@ a {
 h1, h2 {
     font-weight: 700;
     font-size: 1.5rem;
-    padding: 0.6em 0.4em;
+    padding: 0.6em 0em;
 }
 
 .container a {
@@ -118,7 +117,7 @@ h1, h2 {
 }
 
 .container p {
-    padding: 0.6em 0.4em;
+    padding: 0.6em 0em;
 }
 
 /* Project page specific */
