@@ -145,7 +145,7 @@ h1, h2 {
 
 .col {
     /* background-color: rgb(59, 59, 59); */
-    background-image: linear-gradient(rgb(128, 128, 128), rgb(48, 48, 48));
+    background-image: linear-gradient(rgb(48, 48, 48), rgb(128, 128, 128));
     margin: 2em 2em;
     min-height:20em;    
     border: 0.2em solid grey;
@@ -191,10 +191,19 @@ footer {
 
     color: white;
     text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+footer img {
+    width: 2em;
+    height: 2em;
+    margin-top: 0.5em;
 }
 
 footer p {
-    padding: 0.8em 1em;
     font-size: 1em;
     line-height: 1.5em;
 }
