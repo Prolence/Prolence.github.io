@@ -144,7 +144,8 @@ h1, h2 {
 /*-- PROGRAMMING-PROJECTS --------------*/
 
 .col {
-    background-color: rgb(59, 59, 59);
+    /* background-color: rgb(59, 59, 59); */
+    background-image: linear-gradient(rgb(128, 128, 128), rgb(48, 48, 48));
     margin: 2em 2em;
     min-height:20em;    
     border: 0.2em solid grey;
@@ -155,7 +156,7 @@ h1, h2 {
     color: white;
 
     font-size: 1.1em;
-    line-height: 1.25em;
+    line-height: 1.5em;
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 3em;
@@ -179,11 +180,24 @@ h1, h2 {
 
 .footer-container {
     background-color: rgb(59, 59, 59);
-    min-height: 100px;
+    min-height: 5em;
     margin-top: auto;
     max-width: 100%;
 }
 
+footer {
+    max-width: 1024px;
+    margin: 0em auto;
+
+    color: white;
+    text-align: left;
+}
+
+footer p {
+    padding: 0.8em 1em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
 
 /* ---------------------------------- TABLET -------------------------------------- */
 
